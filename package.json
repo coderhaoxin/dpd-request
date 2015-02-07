@@ -1,0 +1,31 @@
+{
+  "name": "mosql",
+  "version": "0.1.0",
+  "description": "mongodb to postgresql",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coderhaoxin/mosql.git"
+  },
+  "keywords": [
+    "postgresql",
+    "mongodb"
+  ],
+  "author": "haoxin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderhaoxin/mosql/issues"
+  },
+  "homepage": "https://github.com/coderhaoxin/mosql",
+  "dependencies": {
+    "mongodb": "^1.4.26",
+    "mongodb-next": "^0.6.2",
+    "pg": "^4.1.1"
+  }
+}
