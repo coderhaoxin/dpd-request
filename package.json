@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "init-mongodb": "iojs data/init-mongo",
+    "init-postgre": "psql -d mosql -f data/init-postgre.sql",
+    "test": "DEBUG=mosql:* mocha"
   },
   "repository": {
     "type": "git",
@@ -24,8 +26,12 @@
   },
   "homepage": "https://github.com/coderhaoxin/mosql",
   "dependencies": {
+    "commander": "^2.6.0",
+    "debug": "^2.1.1",
+    "lodash": "^3.1.0",
     "mongodb": "^1.4.26",
     "mongodb-next": "^0.6.2",
-    "pg": "^4.1.1"
+    "pg": "^4.1.1",
+    "pg-then": "^0.1.0"
   }
 }
