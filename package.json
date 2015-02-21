@@ -1,5 +1,6 @@
 {
   "name": "mosql",
+  "private": true,
   "version": "0.1.0",
   "description": "mongodb to postgresql",
   "main": "index.js",
